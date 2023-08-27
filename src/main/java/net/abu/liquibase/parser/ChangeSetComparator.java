@@ -15,7 +15,10 @@ public class ChangeSetComparator implements Comparator<ChangeSet> {
             "bb_achievementprofiles", "bb_injuries", "bb_playerpositions", "bb_teams", "bb_players", "bb_staffs",
             "bb_leagues", "bb_members", "bb_seasons", "bb_competitions", "bb_commissioners", "bb_schedules",
             "bb_rounds", "bb_participatingteams", "bb_tiebreakers", "bb_matches", "bb_opponents", "bb_participatingplayers",
-            "bb_achievements", "bb_achievement_totals", "bb_improvements", "bb_leavingplayers", "bb_scheduled_mails"};
+            "bb_achievements", "bb_achievement_totals", "bb_improvements", "bb_leavingplayers",
+            "to_tournois", "to_clans", "to_rounds", "to_competitors", "to_matchs", "to_tiebreakers", "to_points",
+            "to_organizers", "to_challenges", "to_rewards",
+            "bb_scheduled_mails"};
 
     private Map<String, Integer> ordering = new HashMap<>();
 
